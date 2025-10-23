@@ -34,15 +34,16 @@
 
 ```html
 [[!ScxCaptchaAjaxForm]]
+```
 Пример с AjaxForm
-html
-Копировать код
+```html
 [[!AjaxForm?
   &snippet=`FormIt`
   &form=`tpl.AjaxForm.example`
   &hooks=`ScxCaptchaAjaxFormHook,email`
   &validate=`name:required,email:required:email,scx_code:required`
 ]]
+```
 Пример с FormIt
 html
 Копировать код
